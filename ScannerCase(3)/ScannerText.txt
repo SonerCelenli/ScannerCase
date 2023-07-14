@@ -1,0 +1,24 @@
+
+	Projeme başlarken öncelikle araştırma yaparak başladım. Bundan önce web scraping alanında bir bilgim yoktu o yüzdenilk 2 günümü internetten bilgi aramaya ayırdım. Ararken kullancağımız dil olan C# hangi kütüphaneleri kullanabilceğimhakkında bilgi edinmeye başladım.C# kullanma olmasa ise Python ile bu işlemlerin daha hızlı ve kolay yapılabildiğinin farkında vardım .En cok kullandığını fark ettiğim kütüphaneler(C#) Selenium ve HtmlAgilityPack oldu. Bu  iki kütüphaneyide örnek kodlarına bakarak ve araştırarak kendi projemde HtmlAgilityPack ve HttpClient gibi kütüphaneler, web sayfalarını indirmek, HTML içeriğini analiz etmek ve verileri çekmek için kullanıldı. Bu kütüphaneler, manage NuGet paket yöneticisi aracılığıyla projeye kolayca eklendi.
+	
+	Bu kütüphaneyi seçme nedenlerin arasında en önemli nedenlerim iseHtmlAgilityPack kütüphanesi, HTML içeriğini analiz etmek ve düzenlemek için kullanılan güçlü bir araç. HttpClient sınıfı ise web sayfalarını indirmek ve web istekleri yapmak için kullanılan bir sınıftır.Bunlarda projemde bana kolaylık sağladı.
+	
+	Web scraping işlemi için öncelikle sahibinden.com web sitesi hakkında araştırmalar yaptım. İnternet üzerindeki çeşitli kaynaklar, web scraping konusunda faydalı bilgiler sağlamıştım. Araştırmalar sırasında, sahibinden.com web sitesinin yapısı, HTML etiketleri ve sınıfları hakkında bilgi edindim. Ayrıca, web scraping için yaygın olarak kullanılan teknikler ve en iyi uygulamalar hakkında da bilgi topladım.
+	
+	Webscraping işlemine başladıktan sonra ise sahibinden.com a giderek HTML kodlarının yapısına bakarak alacağım verilerin yerini bulmak oldu . Bu benim için çok zor bir kısım olmadı önceden bir web sitesinin gelişiminde front-end kısmında çalışmıştım. Bu yüzden HTML kodları için ayriyetten uzun bir araştırma yapmadım.
+
+	Verileri çekebildikten sonra verilerimi aktarabilceğim bir .txt formatında dosyaya sahip olmam istenmişti . Bu yüzden verileri .txt dosyasına eklemek için ise System.IO sınıfını kullandım. System.IO.StreamWriter(_____.txt) kodu sayesinde nesnemi (dosya) olusturdum. Olusturduğum dosyamın içine ise StreamWriter(nesne) metodu sayesinde verilerimi dosyaya aktırmış bulundum. 
+	
+	Olası bir API banlanmasına karşılık araştırmamı yaptığımda önüme çıkan fikirler Apı adreslerinin sürekli değişmesi veya bir süre zarf aralıklarla Apı yollanmasıydı. Bunları öğrendikten sonra ise kendi algoritmamı geliştirmeye çalıştım. Burada algoritmamı geliştirirken ise Random class'ından yararlanmış olmaktayım. Birden fazla Apı olusturarak bu sorunun üstesinden gelebilceğimizi düşündüm. Ayriyetten kendi aloritmamızı oluşturarak Random calısan Apıler olusturarak bu sistemi geliştirilebilir olduğunu düşündüm.
+	 
+	Yazdığım kodu test ettiğimde ise çalışmadığını fark ettim düzeltmeler yapsamda 
+
+
+
+	Analiz Kısmı (%55) *İlk defa böyle bir proje yapacağımdan dolayı zamanımın büyük kısmını Analize ve Araştırmaya ayırdım.
+	Kodlama       (%30) *Ana kodumu yazdıktan sonra testlerden dönüş olarak değiştirdim büyük kısmını  .
+	Test              (%15)
+
+
+
+Soner Çelenlioğlu.

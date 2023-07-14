@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "H3J1eq2GrlcFjMWowphz8w2hs23vfZ1WnycUdTNKL4vWlGObisFX2f+ICMSfyPVDuB5/xgXS8m/1+vph2GxGzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\soner\\OneDrive\\Masaüstü\\ScannerCase(3)\\ScannerCase(4)\\ScannerCase(4).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\soner\\.nuget\\packages\\htmlagilitypack\\1.11.49\\htmlagilitypack.1.11.49.nupkg.sha512",
+    "C:\\Users\\soner\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
